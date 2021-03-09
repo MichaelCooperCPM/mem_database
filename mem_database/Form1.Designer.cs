@@ -50,14 +50,14 @@ namespace mem_database
             this.AmountToPayHeadingLabel = new System.Windows.Forms.Label();
             this.AmountToPayLabel = new System.Windows.Forms.Label();
             this.SaveButton = new System.Windows.Forms.Button();
+            this.ExitButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // HeadingLabel
             // 
             this.HeadingLabel.AutoSize = true;
             this.HeadingLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.HeadingLabel.Location = new System.Drawing.Point(682, 14);
-            this.HeadingLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.HeadingLabel.Location = new System.Drawing.Point(455, 9);
             this.HeadingLabel.Name = "HeadingLabel";
             this.HeadingLabel.Size = new System.Drawing.Size(389, 25);
             this.HeadingLabel.TabIndex = 0;
@@ -66,120 +66,107 @@ namespace mem_database
             // idHeadingLabel
             // 
             this.idHeadingLabel.AutoSize = true;
-            this.idHeadingLabel.Location = new System.Drawing.Point(152, 149);
-            this.idHeadingLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.idHeadingLabel.Location = new System.Drawing.Point(101, 97);
             this.idHeadingLabel.Name = "idHeadingLabel";
-            this.idHeadingLabel.Size = new System.Drawing.Size(30, 20);
+            this.idHeadingLabel.Size = new System.Drawing.Size(21, 13);
             this.idHeadingLabel.TabIndex = 1;
             this.idHeadingLabel.Text = "ID:";
             // 
             // idLAbel
             // 
             this.idLAbel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.idLAbel.Location = new System.Drawing.Point(194, 142);
-            this.idLAbel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.idLAbel.Location = new System.Drawing.Point(129, 92);
             this.idLAbel.Name = "idLAbel";
-            this.idLAbel.Size = new System.Drawing.Size(299, 34);
+            this.idLAbel.Size = new System.Drawing.Size(200, 23);
             this.idLAbel.TabIndex = 2;
             // 
             // firstNameHeadingLabel
             // 
             this.firstNameHeadingLabel.AutoSize = true;
-            this.firstNameHeadingLabel.Location = new System.Drawing.Point(98, 225);
-            this.firstNameHeadingLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.firstNameHeadingLabel.Location = new System.Drawing.Point(65, 146);
             this.firstNameHeadingLabel.Name = "firstNameHeadingLabel";
-            this.firstNameHeadingLabel.Size = new System.Drawing.Size(86, 20);
+            this.firstNameHeadingLabel.Size = new System.Drawing.Size(57, 13);
             this.firstNameHeadingLabel.TabIndex = 3;
             this.firstNameHeadingLabel.Text = "FirstName:";
             // 
             // DOBheadingLabel
             // 
             this.DOBheadingLabel.AutoSize = true;
-            this.DOBheadingLabel.Location = new System.Drawing.Point(98, 369);
-            this.DOBheadingLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.DOBheadingLabel.Location = new System.Drawing.Point(65, 240);
             this.DOBheadingLabel.Name = "DOBheadingLabel";
-            this.DOBheadingLabel.Size = new System.Drawing.Size(86, 20);
+            this.DOBheadingLabel.Size = new System.Drawing.Size(57, 13);
             this.DOBheadingLabel.TabIndex = 7;
             this.DOBheadingLabel.Text = "FirstName:";
             // 
             // surnameHeadingLabel
             // 
             this.surnameHeadingLabel.AutoSize = true;
-            this.surnameHeadingLabel.Location = new System.Drawing.Point(105, 297);
-            this.surnameHeadingLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.surnameHeadingLabel.Location = new System.Drawing.Point(70, 193);
             this.surnameHeadingLabel.Name = "surnameHeadingLabel";
-            this.surnameHeadingLabel.Size = new System.Drawing.Size(78, 20);
+            this.surnameHeadingLabel.Size = new System.Drawing.Size(52, 13);
             this.surnameHeadingLabel.TabIndex = 5;
             this.surnameHeadingLabel.Text = "Surname:";
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(194, 363);
-            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.dateTimePicker1.Location = new System.Drawing.Point(129, 236);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(298, 26);
+            this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
             this.dateTimePicker1.TabIndex = 8;
             // 
             // GenderHeadingLabel
             // 
             this.GenderHeadingLabel.AutoSize = true;
-            this.GenderHeadingLabel.Location = new System.Drawing.Point(105, 588);
-            this.GenderHeadingLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.GenderHeadingLabel.Location = new System.Drawing.Point(70, 382);
             this.GenderHeadingLabel.Name = "GenderHeadingLabel";
-            this.GenderHeadingLabel.Size = new System.Drawing.Size(67, 20);
+            this.GenderHeadingLabel.Size = new System.Drawing.Size(45, 13);
             this.GenderHeadingLabel.TabIndex = 13;
             this.GenderHeadingLabel.Text = "Gender:";
             // 
             // MobNoHeadingLabel
             // 
             this.MobNoHeadingLabel.AutoSize = true;
-            this.MobNoHeadingLabel.Location = new System.Drawing.Point(98, 512);
-            this.MobNoHeadingLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.MobNoHeadingLabel.Location = new System.Drawing.Point(65, 333);
             this.MobNoHeadingLabel.Name = "MobNoHeadingLabel";
-            this.MobNoHeadingLabel.Size = new System.Drawing.Size(64, 20);
+            this.MobNoHeadingLabel.Size = new System.Drawing.Size(45, 13);
             this.MobNoHeadingLabel.TabIndex = 11;
             this.MobNoHeadingLabel.Text = "MobNo:";
             // 
             // AddressHeadingLabel
             // 
             this.AddressHeadingLabel.AutoSize = true;
-            this.AddressHeadingLabel.Location = new System.Drawing.Point(111, 435);
-            this.AddressHeadingLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.AddressHeadingLabel.Location = new System.Drawing.Point(74, 283);
             this.AddressHeadingLabel.Name = "AddressHeadingLabel";
-            this.AddressHeadingLabel.Size = new System.Drawing.Size(72, 20);
+            this.AddressHeadingLabel.Size = new System.Drawing.Size(48, 13);
             this.AddressHeadingLabel.TabIndex = 9;
             this.AddressHeadingLabel.Text = "Address:";
             // 
             // FirstNameTextbox
             // 
-            this.FirstNameTextbox.Location = new System.Drawing.Point(194, 218);
-            this.FirstNameTextbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.FirstNameTextbox.Location = new System.Drawing.Point(129, 142);
             this.FirstNameTextbox.Name = "FirstNameTextbox";
-            this.FirstNameTextbox.Size = new System.Drawing.Size(298, 26);
+            this.FirstNameTextbox.Size = new System.Drawing.Size(200, 20);
             this.FirstNameTextbox.TabIndex = 14;
             // 
             // SurnameTextBox
             // 
-            this.SurnameTextBox.Location = new System.Drawing.Point(194, 291);
-            this.SurnameTextBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.SurnameTextBox.Location = new System.Drawing.Point(129, 189);
             this.SurnameTextBox.Name = "SurnameTextBox";
-            this.SurnameTextBox.Size = new System.Drawing.Size(298, 26);
+            this.SurnameTextBox.Size = new System.Drawing.Size(200, 20);
             this.SurnameTextBox.TabIndex = 15;
             // 
             // AddressTextbox
             // 
-            this.AddressTextbox.Location = new System.Drawing.Point(194, 435);
-            this.AddressTextbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.AddressTextbox.Location = new System.Drawing.Point(129, 283);
             this.AddressTextbox.Name = "AddressTextbox";
-            this.AddressTextbox.Size = new System.Drawing.Size(298, 26);
+            this.AddressTextbox.Size = new System.Drawing.Size(200, 20);
             this.AddressTextbox.TabIndex = 16;
             // 
             // MobNoTextbox
             // 
-            this.MobNoTextbox.Location = new System.Drawing.Point(194, 508);
-            this.MobNoTextbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.MobNoTextbox.Location = new System.Drawing.Point(129, 330);
             this.MobNoTextbox.Name = "MobNoTextbox";
-            this.MobNoTextbox.Size = new System.Drawing.Size(298, 26);
+            this.MobNoTextbox.Size = new System.Drawing.Size(200, 20);
             this.MobNoTextbox.TabIndex = 17;
             // 
             // GenderComboBox
@@ -189,30 +176,27 @@ namespace mem_database
             "Male",
             "Female",
             "Unspecified"});
-            this.GenderComboBox.Location = new System.Drawing.Point(194, 588);
-            this.GenderComboBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.GenderComboBox.Location = new System.Drawing.Point(129, 382);
             this.GenderComboBox.MaxDropDownItems = 3;
             this.GenderComboBox.Name = "GenderComboBox";
-            this.GenderComboBox.Size = new System.Drawing.Size(298, 28);
+            this.GenderComboBox.Size = new System.Drawing.Size(200, 21);
             this.GenderComboBox.TabIndex = 18;
             // 
             // PaidStatusHeadingLabel
             // 
             this.PaidStatusHeadingLabel.AutoSize = true;
-            this.PaidStatusHeadingLabel.Location = new System.Drawing.Point(118, 642);
-            this.PaidStatusHeadingLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.PaidStatusHeadingLabel.Location = new System.Drawing.Point(79, 417);
             this.PaidStatusHeadingLabel.Name = "PaidStatusHeadingLabel";
-            this.PaidStatusHeadingLabel.Size = new System.Drawing.Size(44, 20);
+            this.PaidStatusHeadingLabel.Size = new System.Drawing.Size(31, 13);
             this.PaidStatusHeadingLabel.TabIndex = 19;
             this.PaidStatusHeadingLabel.Text = "Paid:";
             // 
             // radioButton1
             // 
             this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(194, 642);
-            this.radioButton1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.radioButton1.Location = new System.Drawing.Point(129, 417);
             this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(55, 24);
+            this.radioButton1.Size = new System.Drawing.Size(43, 17);
             this.radioButton1.TabIndex = 20;
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "Yes";
@@ -221,10 +205,9 @@ namespace mem_database
             // radioButton2
             // 
             this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(366, 642);
-            this.radioButton2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.radioButton2.Location = new System.Drawing.Point(244, 417);
             this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(47, 24);
+            this.radioButton2.Size = new System.Drawing.Size(39, 17);
             this.radioButton2.TabIndex = 21;
             this.radioButton2.TabStop = true;
             this.radioButton2.Text = "No";
@@ -233,38 +216,46 @@ namespace mem_database
             // AmountToPayHeadingLabel
             // 
             this.AmountToPayHeadingLabel.AutoSize = true;
-            this.AmountToPayHeadingLabel.Location = new System.Drawing.Point(111, 698);
-            this.AmountToPayHeadingLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.AmountToPayHeadingLabel.Location = new System.Drawing.Point(74, 454);
             this.AmountToPayHeadingLabel.Name = "AmountToPayHeadingLabel";
-            this.AmountToPayHeadingLabel.Size = new System.Drawing.Size(65, 20);
+            this.AmountToPayHeadingLabel.Size = new System.Drawing.Size(43, 13);
             this.AmountToPayHeadingLabel.TabIndex = 22;
             this.AmountToPayHeadingLabel.Text = "Amount";
             // 
             // AmountToPayLabel
             // 
             this.AmountToPayLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.AmountToPayLabel.Location = new System.Drawing.Point(194, 698);
-            this.AmountToPayLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.AmountToPayLabel.Location = new System.Drawing.Point(129, 454);
             this.AmountToPayLabel.Name = "AmountToPayLabel";
-            this.AmountToPayLabel.Size = new System.Drawing.Size(299, 34);
+            this.AmountToPayLabel.Size = new System.Drawing.Size(200, 23);
             this.AmountToPayLabel.TabIndex = 23;
             // 
             // SaveButton
             // 
-            this.SaveButton.Location = new System.Drawing.Point(230, 789);
-            this.SaveButton.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.SaveButton.Location = new System.Drawing.Point(153, 513);
             this.SaveButton.Name = "SaveButton";
-            this.SaveButton.Size = new System.Drawing.Size(195, 112);
+            this.SaveButton.Size = new System.Drawing.Size(130, 73);
             this.SaveButton.TabIndex = 24;
             this.SaveButton.Text = "Save";
             this.SaveButton.UseVisualStyleBackColor = true;
             this.SaveButton.Click += new System.EventHandler(this.SaveButton_Click);
             // 
+            // ExitButton
+            // 
+            this.ExitButton.Location = new System.Drawing.Point(1144, 23);
+            this.ExitButton.Name = "ExitButton";
+            this.ExitButton.Size = new System.Drawing.Size(143, 92);
+            this.ExitButton.TabIndex = 25;
+            this.ExitButton.Text = "Exit";
+            this.ExitButton.UseVisualStyleBackColor = true;
+            this.ExitButton.Click += new System.EventHandler(this.ExitButton_Click);
+            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1948, 1421);
+            this.ClientSize = new System.Drawing.Size(1299, 924);
+            this.Controls.Add(this.ExitButton);
             this.Controls.Add(this.SaveButton);
             this.Controls.Add(this.AmountToPayLabel);
             this.Controls.Add(this.AmountToPayHeadingLabel);
@@ -286,7 +277,6 @@ namespace mem_database
             this.Controls.Add(this.idLAbel);
             this.Controls.Add(this.idHeadingLabel);
             this.Controls.Add(this.HeadingLabel);
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -317,6 +307,7 @@ namespace mem_database
         private System.Windows.Forms.Label AmountToPayHeadingLabel;
         private System.Windows.Forms.Label AmountToPayLabel;
         private System.Windows.Forms.Button SaveButton;
+        private System.Windows.Forms.Button ExitButton;
     }
 }
 

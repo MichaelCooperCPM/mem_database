@@ -91,5 +91,10 @@ namespace mem_database
             xDoc.InsertBefore(xmldecl, root);
             xDoc.Save("database.xml");
         }
+
+        private void ExitButton_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
