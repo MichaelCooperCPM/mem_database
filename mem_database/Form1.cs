@@ -96,5 +96,35 @@ namespace mem_database
         {
             this.Close();
         }
+
+        private void SearchData()
+        {
+            bool found = false;
+
+            XmlDocument xDoc = new XmlDocument();
+            xDoc.Load("database.xml");
+
+            string searchedMember = SearchFirstNameTextbox.Text;
+
+            foreach (XmlNode xNode in xDoc.SelectNodes("members/member"))
+            {
+                if (xNode.SelectSingleNode("firstname").InnerText == searchedMember)
+                {
+                    FoundSurnameLabel.Text = xNode.SelectSingleNode("surname").InnerText;
+                    found = true;
+                }
+            }
+
+            if (!found)
+            {
+                Console.WriteLine();
+                MessageBox.Show("No member found with that name.");
+            }
+        }
+
+        private void SearchButton_Click(object sender, EventArgs e)
+        {
+            SearchData();
+        }
     }
 }
